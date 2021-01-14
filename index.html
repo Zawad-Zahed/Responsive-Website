@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css" />
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Backpack Moon</title>
   </head>
-  <body class="container bg-light border border-danger" >
-     
-    <header class="container ">
+  <body class="container " >
+     <!-- Header_ Nav & Banner -->
+    <header class="container bg-color-top">
       <nav class="navbar navbar-expand-lg navbar-light mt-2">
-        <div class="container-fluid border border-info ">
+        <div class="container-fluid ">
           <a class="navbar-brand" href="#">
             <img src="logo-icon/Logo.png" alt="" />
           </a>
@@ -32,9 +34,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
        
-        <!-- </div>  this div from custom-->
+        <!-- </div>  this div from custom for Nav-->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav d-flex justify-content-around">
+          <div class="navbar-nav d-flex justify-content-around ms-auto">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">Product</a>
             <a class="nav-link" href="#">Contact us</a>
@@ -42,7 +44,7 @@
           </div>
         </div>
         </div>     
-        <!-- this div from Bootstrap -->
+        <!-- this div from Bootstrap  Console for banner-->
       </nav>
       <section class="mt-5 rounded">
         <div
@@ -54,10 +56,10 @@
             <div class="carousel-item active">
               <div class="row d-flex align-items-top p-5 ">
                 <div class="col-md-6">
-              <!-- <h1>Moon Backpack</h1> -->
+              <!-- <h1>Moon Backpack text size</h1> -->
               <p class="fs-1 fw-bold"><span class="text-primary">Backpack</span><br><span class="text-success">Moon</span> </p>
               <p>Well company and new feature witting for you. See the world, everything will be in you backpack.</p>
-              <!-- <h3>$1200</h3> -->
+            
               <button type="button" class="btn btn-success btn-lg">
             <img style="height: 25px;" src="logo-icon/shopping-cart 1.png" alt="">
                 Buy Now
@@ -75,11 +77,72 @@
         </div>
       </section>
     </header> 
+    <!-- start main & inside 3 section  -->
     <main class="container">
-      <section class="container">
+        <!-- Main Section_1_Casual Backpack -->
+      <section class="container d-flex mt-5 justify-content-around align-items-center ">
         
+        
+        <div class="left-side container col-md-5 p-2">
+        
+                <div class="row d-flex flex-column bg-white ">
+                  <div class="col ">
+                    <div
+                      class="p-3 rounded d-flex "
+                    >
+                      <div class=""><img src="logo-icon/icon1.png" alt="" /></div>
+                      
+                     <div class="text border shadow-sm mb-1 bg-white p-3 rounded-3 ">
+                        <h4 class="text-black">Find the Perfect Fit</h4>
+                     
+                        <p>Everybody is different, which is why we
+  
+                          offer styles for every body.</p>
+                     </div> 
+                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="p-3 rounded bg-white d-flex "
+                    >
+                      <div><img src="logo-icon/icon2.png" alt="" /></div>
+                      
+                     <div class="text border shadow-sm mb-1 bg-white p-3 rounded-3">
+                        <h4 class="text-black">Free Exchanges</h4>
+                     
+                        <p>One of the many reasons you can shop
+
+                            with peace of mind.</p>
+                     </div> 
+                      
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="p-3 rounded bg-white d-flex "
+                    >
+                      <div><img src="logo-icon/icon3.png" alt="" /></div>
+                      
+                     <div class="text border shadow-sm p-3 mb-1 bg-white rounded-3">
+                        <h4 class="text-black">Contact Our Seller</h4>
+                     
+                        <p>They are here to help you. That's quite 
+
+                            literally what we pay them for.</p>
+                     </div> 
+                      
+                    </div>
+                  </div>
+                </div>
+              
+        </div>
+        
+        <div class="right-side container col-md-7 m-3 p-2 ">
+            <img class="" src="logo-icon/XMLID 1.png" alt="">
+        </div>
       </section>
-      
+      <!-- Main Section_2_Casual Backpack -->
       <section id="Product" class="casual-backpack mt-5 p-3 ">
           <h1><span class="text-primary">Casual backpack</span></h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
@@ -91,15 +154,13 @@
                       </h5>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="card-footer">
+                <div class="m-2 p-2 d-flex justify-content-between">
                     
                         <h3><span class="text-primary">$234</span></h3>
                         <button type="button" class="btn btn-success btn-lg">
                             <img style="height: 25px;" src="logo-icon/shopping-cart 1.png" alt="">
                                 Buy Now
                               </button>
-                      
-                
                 </div>
               </div>
             </div>
@@ -111,7 +172,7 @@
                           </h5>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="m-2 p-2 d-flex justify-content-between">
                         
                             <h3><span class="text-primary">$234</span></h3>
                             <button type="button" class="btn btn-success btn-lg">
@@ -133,7 +194,7 @@
 
                         printing and typesetting industry.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="m-2 p-2 d-flex justify-content-between">
                         
                             <h3><span class="text-primary">$234</span></h3>
                             <button type="button" class="btn btn-success btn-lg">
@@ -147,6 +208,7 @@
             </div>
           </div>
       </section>
+      <!-- Main Section_3_ Travel Backpack -->
       <section id="Product" class="travel-backpack mt-5 p-3">
         <h1><span class="text-primary mt-2">Travel backpack</span></h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
@@ -158,7 +220,7 @@
                       </h5>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="card-footer">
+                <div class="m-2 p-2 d-flex justify-content-between">
                     
                         <h3><span class="text-primary">$234</span></h3>
                         <button type="button" class="btn btn-success btn-lg">
@@ -178,7 +240,7 @@
                           </h5>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="m-2 p-2 d-flex justify-content-between">
                         
                             <h3><span class="text-primary">$234</span></h3>
                             <button type="button" class="btn btn-success btn-lg">
@@ -200,21 +262,24 @@
 
                         printing and typesetting industry.</p>
                     </div>
-                    <div class="card-footer">
-                        
+                    
+                        <div class="m-2 p-2 d-flex justify-content-between">
                             <h3><span class="text-primary">$234</span></h3>
-                            <button type="button" class="btn btn-success btn-lg">
+                            <button type="button" class="btn btn-success">
                                 <img style="height: 25px;" src="logo-icon/shopping-cart 1.png" alt="">
                                     Buy Now
                                   </button>
-                          
-                    
                     </div>
                   </div>
             </div>
           </div>
       </section>
-      <section id="Contact-us" class="features"></section>
+      <!-- Section 5_ Extra Features -->
+      <section id="Contact-us" class="features mt-5 p-3" >
+        <div class="d-flex flex-column bg-light shadow">
+        
+          </div>
+      </section>
     </main>
     <footer id="About-us" class="footer"></footer>
 

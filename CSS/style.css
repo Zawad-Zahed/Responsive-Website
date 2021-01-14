@@ -1,3 +1,9 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.container bg-color{
+    FFFFF4
+}
 .navbar-brand img {
   height: 30px;
   width: auto;
@@ -5,4 +11,18 @@
 .button img {
   height: 30px;
   width: auto;
+}
+.left-side img {
+  height: 90px;
+  width: auto;
+  margin: 10px;
+  padding-right: 10px;
+}
+.right-side img {
+  height: 350px;
+  width: auto;
+  margin-left: 50px;
+}
+header .bg-color-top{
+    background-color: FBF3E5;
 }
