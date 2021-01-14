@@ -10,17 +10,80 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <title></title>
+    <title>Backpack Moon</title>
   </head>
-  <body>
-    <header></header>
+  <body class="container bg-secondary border border-danger" >
+     
+    <header class="container ">
+      <nav class="navbar navbar-expand-lg navbar-light mt-2">
+        <div class="container-fluid border border-info ">
+          <a class="navbar-brand" href="#">
+            <img src="logo-icon/Logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       
+        <!-- </div>  this div from custom-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex justify-content-around">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="#">About us</a>
+          </div>
+        </div>
+        </div>     
+        <!-- this div from Bootstrap -->
+      </nav>
+      <section class="mt-5 rounded">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row d-flex align-items-top p-5 ">
+                <div class="col-md-6">
+              <!-- <h1>Moon Backpack</h1> -->
+              <p class="fs-1 fw-bold"><span class="text-primary">Backpack</span>  <br><span class="text-success">Moon</span> </p>
+              <p>Well company and new feature witting for you. See the world, everything will be in you backpack.</p>
+              <!-- <h3>$1200</h3> -->
+              <button type="button" class="btn btn-success btn-lg">
+            <img style="height: 25px;" src="logo-icon/shopping-cart 1.png" alt="">
+                Buy Now
+              </button>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="images/top-bag.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </header> 
     <main class="container">
-      <section class="store"></section>
-      <section class="casual-backpack"></section>
-      <section class="travel-backpack"></section>
-      <section class="features"></section>
+      <section id="Contact-us" class="store">
+ 
+      </section>
+      <section id="Product" class="casual-backpack"></section>
+      <section id="Product" class="travel-backpack"></section>
+      <section id="Contact-us" class="features"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer id="About-us" class="footer"></footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
