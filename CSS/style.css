@@ -33,3 +33,8 @@ body {
 header .bg-color-top {
   background-color: FBF3E5;
 }
+.card-img-top {
+  height: 300px;
+  width: auto;
+  border-radius: 30px;
+}
