@@ -4,8 +4,8 @@ body {
   font: 2em sans-serif;
 }
 header {
-    background-color: color: rgb(221, 188, 160);
-  }
+  background-color: rgb(245, 243, 235);
+}
 .bg-color-top- {
   color: rgb(221, 188, 160);
 }
@@ -32,7 +32,6 @@ header {
   height: 80px;
   width: auto;
 }
-
 
 .card-img-top {
   height: 300px;
