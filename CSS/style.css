@@ -3,6 +3,9 @@ body {
 
   font: 2em sans-serif;
 }
+header {
+    background-color: color: rgb(221, 188, 160);
+  }
 .bg-color-top- {
   color: rgb(221, 188, 160);
 }
@@ -30,9 +33,7 @@ body {
   width: auto;
 }
 
-header .bg-color-top {
-  background-color: FBF3E5;
-}
+
 .card-img-top {
   height: 300px;
   width: auto;
