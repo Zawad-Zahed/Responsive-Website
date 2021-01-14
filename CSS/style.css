@@ -1,8 +1,10 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-style: italic;
+
+  font: 2em sans-serif;
 }
-.container bg-color{
-    FFFFF4
+.bg-color-top- {
+  color: rgb(221, 188, 160);
 }
 .navbar-brand img {
   height: 30px;
@@ -23,6 +25,11 @@ body {
   width: auto;
   margin-left: 50px;
 }
-header .bg-color-top{
-    background-color: FBF3E5;
+.bottom-card img {
+  height: 80px;
+  width: auto;
+}
+
+header .bg-color-top {
+  background-color: FBF3E5;
 }
